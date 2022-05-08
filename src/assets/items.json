@@ -330,5 +330,343 @@
     "name": "Mushroom",
     "type": "food",
     "dependencies": []
+  },
+  "oxygentank1": {
+    "name": "Oxygen Tank T1",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "cobalt",
+        "quantity": 2
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      }
+    ]
+  },
+  "oxygentank2": {
+    "name": "Oxygen Tank T2",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "oxygentank1",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 2
+      }
+    ]
+  },
+  "oxygentank3": {
+    "name": "Oxygen Tank T3",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "oxygentank2",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "oxygentank4": {
+    "name": "Oxygen Tank T4",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "oxygentank3",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      }
+    ]
+  },
+  "backpack1": {
+    "name": "Backpack T1",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 2
+      }
+    ]
+  },
+  "backpack2": {
+    "name": "Backpack T2",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "backpack1",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  "backpack3": {
+    "name": "Backpack T3",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "backpack2",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 2
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      }
+    ]
+  },
+  "backpack4": {
+    "name": "Backpack T4",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "backpack3",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  "backpack5": {
+    "name": "Backpack T5",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "backpack4",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  "exoskeleton1": {
+    "name": "Exoskeleton T1",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      }
+    ]
+  },
+  "exoskeleton2": {
+    "name": "Exoskeleton T2",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "exoskeleton1",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 2
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "jetpack1": {
+    "name": "Jetpack T1",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "rocketengine",
+        "quantity": 2
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  "jetpack2": {
+    "name": "Jetpack T2",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "jetpack1",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "sulfur",
+        "quantity": 1
+      },
+      {
+        "item": "osmium",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "jetpack3": {
+    "name": "Jetpack T3",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "jetpack2",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "osmium",
+        "quantity": 1
+      },
+      {
+        "item": "explosivepowder",
+        "quantity": 2
+      }
+    ]
+  },
+  "agilityboots1": {
+    "name": "Agility Boots T1",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "aluminium",
+        "quantity": 2
+      },
+      {
+        "item": "fabric",
+        "quantity": 2
+      }
+    ]
+  },
+  "agilityboots2": {
+    "name": "Agility Boots T2",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "agilityboots1",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      },
+      {
+        "item": "fabric",
+        "quantity": 2
+      }
+    ]
+  },
+  "agilityboots3": {
+    "name": "Agility Boots T3",
+    "type": "equipment",
+    "dependencies": [
+      {
+        "item": "agilityboots2",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      },
+      {
+        "item": "explosivepowder",
+        "quantity": 1
+      }
+    ]
   }
 }
