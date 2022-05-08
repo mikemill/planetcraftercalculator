@@ -1,0 +1,66 @@
+{
+  "iron": {
+    "name": "Iron",
+    "type": "ore",
+    "dependencies": []
+  },
+  "titanium": {
+    "name": "Titanium",
+    "type": "ore",
+    "dependencies": []
+  },
+  "cobalt": {
+    "name": "Cobalt",
+    "type": "ore",
+    "dependencies": []
+  },
+  "magnesium": {
+    "name": "Magnesium",
+    "type": "ore",
+    "dependencies": []
+  },
+  "silicon": {
+    "name": "Silicon",
+    "type": "ore",
+    "dependencies": []
+  },
+  "aluminium": {
+    "name": "Aluminium",
+    "type": "ore",
+    "dependencies": []
+  },
+  "ice": {
+    "name": "Ice",
+    "type": "ore",
+    "dependencies": []
+  },
+  "superalloy": {
+    "name": "Super Alloy",
+    "dependencies": [
+      {
+        "item": "cobalt",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  }
+}
