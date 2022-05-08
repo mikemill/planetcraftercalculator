@@ -18,7 +18,7 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "ngx-pug-builders:browser",
           "options": {
             "outputPath": "dist/planetcraftercalculator",
             "index": "src/index.html",
@@ -64,7 +64,7 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "ngx-pug-builders:dev-server",
           "configurations": {
             "production": {
               "browserTarget": "planetcraftercalculator:build:production"
@@ -76,13 +76,13 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "builder": "ngx-pug-builders:extract-i18n",
           "options": {
             "browserTarget": "planetcraftercalculator:build"
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "ngx-pug-builders:karma",
           "options": {
             "main": "src/test.ts",
             "polyfills": "src/polyfills.ts",
