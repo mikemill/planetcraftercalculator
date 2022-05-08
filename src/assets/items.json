@@ -285,5 +285,50 @@
         "quantity": 1
       }
     ]
+  },
+  "spacefood": {
+    "name": "Space Food",
+    "type": "consumable",
+    "dependencies": []
+  },
+  "water": {
+    "name": "Water Bottle",
+    "type": "consumable",
+    "dependencies": [
+      {
+        "item": "ice",
+        "quantity": 1
+      }
+    ]
+  },
+  "oxygen": {
+    "name": "Oxygen Capsule",
+    "type": "consumable",
+    "dependencies": [
+      {
+        "item": "cobalt",
+        "quantity": 2
+      }
+    ]
+  },
+  "eggplant": {
+    "name": "Eggplant",
+    "type": "food",
+    "dependencies": []
+  },
+  "squash": {
+    "name": "Squash",
+    "type": "food",
+    "dependencies": []
+  },
+  "beans": {
+    "name": "Beans",
+    "type": "food",
+    "dependencies": []
+  },
+  "mushroom": {
+    "name": "Mushroom",
+    "type": "food",
+    "dependencies": []
   }
 }
