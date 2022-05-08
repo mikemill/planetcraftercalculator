@@ -17,7 +17,7 @@ table.table.table-striped
         div(*ngIf="item.value.heat") #[strong Heat] {{ item.value.heat }} pK/s
         div(*ngIf="item.value.pressure") #[strong Pressure] {{ item.value.pressure }} nPa/s
         div(*ngIf="item.value.biomass") #[strong Biomass] {{ item.value.biomass }}
-        // div(*ngIf="item.value.oxygen") #[strong Oxygen] {{ item.value.oxygen }}
+        div(*ngIf="item.value.oxygen") #[strong Oxygen] {{ item.value.oxygen }} ppq/s
       td
         ul(*ngIf="item.value.dependencies.length")
           li(*ngFor="let depend of item.value.dependencies") {{ depend.quantity }}x {{ items[depend.item]?.name }}

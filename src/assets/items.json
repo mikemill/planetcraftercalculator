@@ -210,7 +210,7 @@
       }
     ]
   },
-  "fertilizert2": {
+  "fertilizer2": {
     "name": "Fertilizer T2",
     "type": "bio",
     "dependencies": [
@@ -683,7 +683,7 @@
       }
     ]
   },
-  "microchipdestruction": {
+  "microchipdeconstruction": {
     "name": "Microchip - Deconstruction",
     "type": "microchip",
     "dependencies": [
@@ -1463,25 +1463,813 @@
       }
     ]
   },
-  "drill": {
-    "name": "Drill T",
-    "type": "drills",
-    "power": 0,
+  "vegetube1": {
+    "name": "Vegetube T1",
+    "type": "vegetube",
+    "power": -0.35,
+    "oxygen": 0.15,
     "dependencies": [
       {
-        "item": "",
+        "item": "iron",
         "quantity": 1
       },
       {
-        "item": "",
+        "item": "ice",
         "quantity": 1
       },
       {
-        "item": "",
+        "item": "magnesium",
+        "quantity": 1
+      }
+    ]
+  },
+  "vegetube2": {
+    "name": "Vegetube T2",
+    "type": "vegetube",
+    "power": -3.5,
+    "oxygen": 1.2,
+    "dependencies": [
+      {
+        "item": "iron",
         "quantity": 1
       },
       {
-        "item": "",
+        "item": "ice",
+        "quantity": 2
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      }
+    ]
+  },
+  "vegetube3": {
+    "name": "Vegetube T3",
+    "type": "vegetube",
+    "power": -7.25,
+    "oxygen": 13,
+    "dependencies": [
+      {
+        "item": "water",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 2
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "foodgrower1": {
+    "name": "Food Grower T1",
+    "type": "foodgrower",
+    "power": -15,
+    "dependencies": [
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "water",
+        "quantity": 1
+      }
+    ]
+  },
+  "foodgrower2": {
+    "name": "Food Grower T2",
+    "type": "foodgrower",
+    "power": -29.5,
+    "dependencies": [
+      {
+        "item": "water",
+        "quantity": 1
+      },
+      {
+        "item": "fertilizer",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      }
+    ]
+  },
+  "grassspreader": {
+    "name": "Grass Spreader",
+    "type": "biomassspreader",
+    "power": -13.8,
+    "oxygen": 108,
+    "biomass": 0.15,
+    "dependencies": [
+      {
+        "item": "water",
+        "quantity": 2
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "seedlirma",
+        "quantity": 1
+      }
+    ]
+  },
+  "flowerspreader1": {
+    "name": "Flower Spreader T1",
+    "type": "biomassspreader",
+    "power": -28.8,
+    "oxygen": 161,
+    "biomass": 7.2,
+    "dependencies": [
+      {
+        "item": "water",
+        "quantity": 3
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "fertilizer",
+        "quantity": 1
+      }
+    ]
+  },
+  "flowerspreader2": {
+    "name": "Flower Spreader T2",
+    "type": "biomassspreader",
+    "power": -38.8,
+    "oxygen": 325,
+    "biomass": 33.5,
+    "dependencies": [
+      {
+        "item": "water",
+        "quantity": 2
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      },
+      {
+        "item": "fertilizer",
+        "quantity": 2
+      }
+    ]
+  },
+  "algaegenerator1": {
+    "name": "Algae Spreader T1",
+    "type": "biomassspreader",
+    "power": -13,
+    "oxygen": 127,
+    "biomass": 0.6,
+    "dependencies": [
+      {
+        "item": "bioplastic",
+        "quantity": 1
+      },
+      {
+        "item": "eggplant",
+        "quantity": 1
+      },
+      {
+        "item": "water",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      }
+    ]
+  },
+  "algaegenerator2": {
+    "name": "Algae Spreader T2",
+    "type": "biomassspreader",
+    "power": -27,
+    "oxygen": 350,
+    "biomass": 17,
+    "dependencies": [
+      {
+        "item": "bioplastic",
+        "quantity": 2
+      },
+      {
+        "item": "fertilizer",
+        "quantity": 1
+      },
+      {
+        "item": "water",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      }
+    ]
+  },
+  "treespreader1": {
+    "name": "Tree Spreader T1",
+    "type": "biomassspreader",
+    "power": -31,
+    "oxygen": 920,
+    "biomass": 85,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "bacteria",
+        "quantity": 1
+      },
+      {
+        "item": "fertilizer",
+        "quantity": 1
+      },
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "bioplastic",
+        "quantity": 1
+      }
+    ]
+  },
+  "treespreader2": {
+    "name": "Tree Spreader T2",
+    "type": "biomassspreader",
+    "power": -71,
+    "oxygen": 1950,
+    "biomass": 149,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "bacteria",
+        "quantity": 1
+      },
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "fertilizer2",
+        "quantity": 1
+      },
+      {
+        "item": "zeolite",
+        "quantity": 1
+      }
+    ]
+  },
+  "treespreader3": {
+    "name": "Tree Spreader T3",
+    "type": "biomassspreader",
+    "power": -193,
+    "oxygen": 12500,
+    "biomass": 680,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "bacteria",
+        "quantity": 1
+      },
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "fertilizer2",
+        "quantity": 1
+      },
+      {
+        "item": "zeolite",
+        "quantity": 1
+      }
+    ]
+  },
+  "oreextractor1": {
+    "name": "Ore Extractor T1",
+    "type": "oreextractor",
+    "power": -34,
+    "heat": 17.5,
+    "pressure": 15,
+    "dependencies": [
+      {
+        "item": "osmium",
+        "quantity": 2
+      },
+      {
+        "item": "iridiumrod",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  "oreextractor2": {
+    "name": "Ore Extractor T2",
+    "type": "oreextractor",
+    "power": -164,
+    "heat": 79.5,
+    "pressure": 85,
+    "dependencies": [
+      {
+        "item": "osmium",
+        "quantity": 3
+      },
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "iridiumrod",
+        "quantity": 2
+      }
+    ]
+  },
+  "gasextractor": {
+    "name": "Gas Extractor",
+    "type": "gasextractor",
+    "power": -58,
+    "heat": 13,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "zeolite",
+        "quantity": 2
+      },
+      {
+        "item": "iridiumrod",
+        "quantity": 1
+      }
+    ]
+  },
+  "watercollectoratmo": {
+    "name": "Atmospheric Water Collector",
+    "type": "watercollector",
+    "power": -11,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      }
+    ]
+  },
+  "watercollectorlake": {
+    "name": "Lake Water Collector",
+    "type": "watercollector",
+    "power": -19,
+    "dependencies": [
+      {
+        "item": "bioplastic",
+        "quantity": 2
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      }
+    ]
+  },
+  "communicationantenna": {
+    "name": "Communication Antenna",
+    "type": "basemisc",
+    "power": -15,
+    "dependencies": [
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "recycling": {
+    "name": "Recycling Machine",
+    "type": "basemisc",
+    "power": -12.5,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "microchipdeconstruction",
+        "quantity": 2
+      }
+    ]
+  },
+  "shredder": {
+    "name": "Shredder Machine",
+    "type": "basemisc",
+    "power": -6,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 2
+      },
+      {
+        "item": "uranium",
+        "quantity": 1
+      },
+      {
+        "item": "osmium",
+        "quantity": 1
+      },
+      {
+        "item": "explosivepowder",
+        "quantity": 1
+      }
+    ]
+  },
+  "dnamanipulator": {
+    "name": "DNA Manipulator",
+    "type": "basemisc",
+    "power": -117.5,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "bioplastic",
+        "quantity": 1
+      },
+      {
+        "item": "explosivepowder",
+        "quantity": 1
+      },
+      {
+        "item": "pulsarquartz",
+        "quantity": 1
+      }
+    ]
+  },
+  "foundation": {
+    "name": "Foundation",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      }
+    ]
+  },
+  "ladderindoor": {
+    "name": "Indoor Ladder",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "cobalt",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      }
+    ]
+  },
+  "launchplatform": {
+    "name": "Launch Platform",
+    "type": "base",
+    "power": -55,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "titanium",
+        "quantity": 3
+      },
+      {
+        "item": "iron",
+        "quantity": 3
+      }
+    ]
+  },
+  "compartmentregular": {
+    "name": "Living Compartment",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 2
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  "compartmentbig": {
+    "name": "Big Living Compartment",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 3
+      },
+      {
+        "item": "titanium",
+        "quantity": 3
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      }
+    ]
+  },
+  "compartmentcorner": {
+    "name": "Living Compartment Corner",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      }
+    ]
+  },
+  "compartmentdoor": {
+    "name": "Living Compartment Door",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  "compartmentglass": {
+    "name": "Living Compartment Glass",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      }
+    ]
+  },
+  "compartmentwindow": {
+    "name": "Living Compartment Window",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      }
+    ]
+  },
+  "stairsoutside": {
+    "name": "Outside Stairs",
+    "type": "base",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      }
+    ]
+  },
+  "rocketasteroid": {
+    "name": "Asteroids Attraction Rocket",
+    "type": "rocket",
+    "dependencies": [
+      {
+        "item": "rocketengine",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "cobalt",
+        "quantity": 3
+      }
+    ]
+  },
+  "rocketmagneticfield": {
+    "name": "Magnetic Field Protection Rocket",
+    "type": "rocket",
+    "dependencies": [
+      {
+        "item": "rocketengine",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      },
+      {
+        "item": "silicon",
+        "quantity": 3
+      }
+    ]
+  },
+  "rocketgps1": {
+    "name": "GPS Satellite T1",
+    "type": "rocket",
+    "dependencies": [
+      {
+        "item": "rocketengine",
+        "quantity": 1
+      },
+      {
+        "item": "microchipcompass",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      }
+    ]
+  },
+  "rocketgps2": {
+    "name": "GPS Satellite T2",
+    "type": "rocket",
+    "dependencies": [
+      {
+        "item": "rocketengine",
+        "quantity": 1
+      },
+      {
+        "item": "microchipcompass",
+        "quantity": 2
+      },
+      {
+        "item": "superalloy",
+        "quantity": 3
+      }
+    ]
+  },
+  "rocketbiomass": {
+    "name": "Biomass Rocket",
+    "type": "rocket",
+    "dependencies": [
+      {
+        "item": "rocketengine",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      },
+      {
+        "item": "fertilizer",
+        "quantity": 1
+      },
+      {
+        "item": "seedlirma",
+        "quantity": 1
+      },
+      {
+        "item": "treebark",
+        "quantity": 1
+      }
+    ]
+  },
+  "rocketseedspreader": {
+    "name": "Seed Spreader Rocket",
+    "type": "rocket",
+    "dependencies": [
+      {
+        "item": "rocketengine",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      },
+      {
+        "item": "bacteria",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "treebark",
         "quantity": 1
       }
     ]
