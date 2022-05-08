@@ -1,0 +1,23 @@
+table.table.table-striped
+  thead 
+    tr
+      th Name
+      th Type
+      th Power
+      th Resources
+      th Dependencies
+  tbody 
+    tr(*ngFor="let item of items | keyvalue")
+      td
+        div {{ item.value.name }}
+        .text-muted {{ item.key }}
+      td {{ item.value.type }}
+      td {{ item.value.power }}
+      td
+        div(*ngIf="item.value.heat") #[strong Heat] {{ item.value.heat }} pK/s
+        div(*ngIf="item.value.pressure") #[strong Pressure] {{ item.value.pressure }} nPa/s
+        div(*ngIf="item.value.biomass") #[strong Biomass] {{ item.value.biomass }}
+        div(*ngIf="item.value.oxygen") #[strong Oxygen] {{ item.value.oxygen }} ppq/s
+      td
+        ul(*ngIf="item.value.dependencies.length")
+          li(*ngFor="let depend of item.value.dependencies") {{ depend.quantity }}x {{ items[depend.item]?.name }}
