@@ -1215,10 +1215,267 @@
       }
     ]
   },
-  "": {
-    "name": "",
-    "type": "",
+  "outsidelamp": {
+    "name": "Outside Lamp",
+    "type": "lamps",
+    "power": -0.3,
     "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      }
+    ]
+  },
+  "arealamp": {
+    "name": "Area Lamp",
+    "type": "lamps",
+    "power": -1.2,
+    "dependencies": [
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      }
+    ]
+  },
+  "beacon": {
+    "name": "Beacon",
+    "type": "lamps",
+    "power": -1.2,
+    "dependencies": [
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      }
+    ]
+  },
+  "craftstation2": {
+    "name": "Craft Station T2",
+    "type": "craftingstation",
+    "power": -0.5,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      }
+    ]
+  },
+  "craftstationadv": {
+    "name": "Advanced Craft Station",
+    "type": "craftingstation",
+    "power": -12.5,
+    "dependencies": [
+      {
+        "item": "aluminium",
+        "quantity": 3
+      },
+      {
+        "item": "titanium",
+        "quantity": 2
+      },
+      {
+        "item": "magnesium",
+        "quantity": 2
+      },
+      {
+        "item": "silicon",
+        "quantity": 2
+      }
+    ]
+  },
+  "heater1": {
+    "name": "Heater T1",
+    "type": "heaters",
+    "power": -1,
+    "heat": 0.3,
+    "dependencies": [
+      {
+        "item": "iridium",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      }
+    ]
+  },
+  "heater2": {
+    "name": "Heater T2",
+    "type": "heaters",
+    "power": -3.5,
+    "heat": 4.5,
+    "dependencies": [
+      {
+        "item": "iridium",
+        "quantity": 2
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "heater3": {
+    "name": "Heater T3",
+    "type": "heaters",
+    "power": -17.5,
+    "heat": 28.5,
+    "pressure": 0.6,
+    "dependencies": [
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "iridiumrod",
+        "quantity": 1
+      }
+    ]
+  },
+  "heater4": {
+    "name": "Heater T4",
+    "type": "heaters",
+    "power": -51.5,
+    "heat": 538.0,
+    "pressure": 35.5,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "iridiumrod",
+        "quantity": 2
+      },
+      {
+        "item": "explosivepowder",
+        "quantity": 1
+      }
+    ]
+  },
+  "drill1": {
+    "name": "Drill T1",
+    "type": "drills",
+    "power": -0.5,
+    "pressure": 0.2,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  "drill2": {
+    "name": "Drill T2",
+    "type": "drills",
+    "power": -5,
+    "pressure": 1.5,
+    "heat": 0.1,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 2
+      }
+    ]
+  },
+  "drill3": {
+    "name": "Drill T3",
+    "type": "drills",
+    "power": -8.5,
+    "pressure": 17,
+    "heat": 0.25,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 2
+      },
+      {
+        "item": "titanium",
+        "quantity": 2
+      },
+      {
+        "item": "aluminium",
+        "quantity": 2
+      }
+    ]
+  },
+  "drill4": {
+    "name": "Drill T4",
+    "type": "drills",
+    "power": -45.5,
+    "pressure": 459,
+    "heat": 25,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 6
+      },
+      {
+        "item": "osmium",
+        "quantity": 3
+      }
+    ]
+  },
+  "drill": {
+    "name": "Drill T",
+    "type": "drills",
+    "power": 0,
+    "dependencies": [
+      {
+        "item": "",
+        "quantity": 1
+      },
+      {
+        "item": "",
+        "quantity": 1
+      },
       {
         "item": "",
         "quantity": 1
