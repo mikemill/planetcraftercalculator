@@ -668,5 +668,123 @@
         "quantity": 1
       }
     ]
+  },
+  "microchipconstruction": {
+    "name": "Microchip - Construction",
+    "type": "microchip",
+    "dependencies": [
+      {
+        "item": "silicon",
+        "quantity": 2
+      },
+      {
+        "item": "magnesium",
+        "quantity": 2
+      }
+    ]
+  },
+  "microchipdestruction": {
+    "name": "Microchip - Deconstruction",
+    "type": "microchip",
+    "dependencies": [
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      }
+    ]
+  },
+  "microchiptorch": {
+    "name": "Microchip - Torch",
+    "type": "microchip",
+    "dependencies": [
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 2
+      }
+    ]
+  },
+  "microchipcompass": {
+    "name": "Microchip - Compass",
+    "type": "microchip",
+    "dependencies": [
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 2
+      }
+    ]
+  },
+  "microchipmining1": {
+    "name": "Microchip - Mining Speed T1",
+    "type": "microchip",
+    "dependencies": [
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "microchipmining2": {
+    "name": "Microchip - Mining Speed T2",
+    "type": "microchip",
+    "dependencies": [
+      {
+        "item": "microchipmining1",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      }
+    ]
+  },
+  "microchipmining3": {
+    "name": "Microchip - Mining Speed T3",
+    "type": "microchip",
+    "dependencies": [
+      {
+        "item": "microchipmining2",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      }
+    ]
   }
 }
