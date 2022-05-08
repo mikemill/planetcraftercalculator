@@ -6,7 +6,9 @@ table.table.table-striped
       th Dependencies
   tbody 
     tr(*ngFor="let item of items | keyvalue")
-      td {{ item.value.name }}
+      td
+        div {{ item.value.name }}
+        .text-muted {{ item.key }}
       td {{ item.value.type }}
       td
         ul(*ngIf="item.value.dependencies.length")
