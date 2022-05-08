@@ -34,6 +34,31 @@
     "type": "ore",
     "dependencies": []
   },
+  "iridium": {
+    "name": "Iridium",
+    "type": "ore",
+    "dependencies": []
+  },
+  "uranium": {
+    "name": "Uranium",
+    "type": "ore",
+    "dependencies": []
+  },
+  "osmium": {
+    "name": "Osmium",
+    "type": "ore",
+    "dependencies": []
+  },
+  "sulfur": {
+    "name": "Sulfur",
+    "type": "ore",
+    "dependencies": []
+  },
+  "zeolite": {
+    "name": "Zeolite",
+    "type": "ore",
+    "dependencies": []
+  },
   "superalloy": {
     "name": "Super Alloy",
     "dependencies": [
