@@ -6,5 +6,6 @@ export interface Dependencies {
 export interface Item {
   name: string;
   type: string;
+  power?: number;
   dependencies: Dependencies[];
 }

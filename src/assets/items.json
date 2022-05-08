@@ -980,5 +980,139 @@
         "quantity": 1
       }
     ]
+  },
+  "screenblueprints": {
+    "name": "Screen - Blueprints",
+    "type": "screen",
+    "power": -0.2,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      }
+    ]
+  },
+  "screenenergy": {
+    "name": "Screen - Energy Levels",
+    "type": "screen",
+    "power": -0.4,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      }
+    ]
+  },
+  "screenmap": {
+    "name": "Screen - Mapping",
+    "type": "screen",
+    "power": -1.4,
+    "dependencies": [
+      {
+        "item": "microchipcompass",
+        "quantity": 1
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      }
+    ]
+  },
+  "screenprogress": {
+    "name": "Screen - Progress",
+    "type": "screen",
+    "power": -1.3,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 2
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      }
+    ]
+  },
+  "screenterraformation": {
+    "name": "Screen - Terraformation",
+    "type": "screen",
+    "power": -0.4,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      }
+    ]
+  },
+  "screentransmissions": {
+    "name": "Screen - Transmissions",
+    "type": "screen",
+    "power": -0.4,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 2
+      },
+      {
+        "item": "magnesium",
+        "quantity": 2
+      }
+    ]
+  },
+  "sign": {
+    "name": "Sign",
+    "type": "screen",
+    "dependencies": [
+      {
+        "item": "magnesium",
+        "quantity": 1
+      }
+    ]
+  },
+  "": {
+    "name": "",
+    "type": "",
+    "dependencies": [
+      {
+        "item": "",
+        "quantity": 1
+      },
+      {
+        "item": "",
+        "quantity": 1
+      }
+    ]
   }
 }
