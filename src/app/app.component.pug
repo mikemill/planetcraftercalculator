@@ -1,0 +1,13 @@
+table.table.table-striped 
+  thead 
+    tr
+      th Name
+      th Type
+      th Dependencies
+  tbody 
+    tr(*ngFor="let item of items | keyvalue")
+      td {{ item.value.name }}
+      td {{ item.value.type }}
+      td
+        ul(*ngIf="item.value.dependencies.length")
+          li(*ngFor="let depend of item.value.dependencies") {{ depend.quantity }}x {{ items[depend.item]?.name }}
