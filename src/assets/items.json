@@ -1101,6 +1101,120 @@
       }
     ]
   },
+  "windturbine": {
+    "name": "Wind Turbin",
+    "type": "power",
+    "power": 1.2,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      }
+    ]
+  },
+  "solarpanel1": {
+    "name": "Solar Panel T1",
+    "type": "power",
+    "power": 6.5,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      },
+      {
+        "item": "silicon",
+        "quantity": 2
+      }
+    ]
+  },
+  "solarpanel2": {
+    "name": "Solar Panel T2",
+    "type": "power",
+    "power": 19.5,
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 2
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "nuclearreactor1": {
+    "name": "Nuclear Reactor T1",
+    "type": "power",
+    "power": 86.5,
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 3
+      },
+      {
+        "item": "water",
+        "quantity": 2
+      },
+      {
+        "item": "uraniumrod",
+        "quantity": 1
+      }
+    ]
+  },
+  "nuclearreactor2": {
+    "name": "Nuclear Reactor T2",
+    "type": "power",
+    "power": 331.5,
+    "dependencies": [
+      {
+        "item": "water",
+        "quantity": 3
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "uraniumrod",
+        "quantity": 3
+      },
+      {
+        "item": "explosivepowder",
+        "quantity": 1
+      }
+    ]
+  },
+  "fusiongenerator": {
+    "name": "Nuclear Fusion Generator",
+    "type": "power",
+    "power": 1835.5,
+    "dependencies": [
+      {
+        "item": "pulsarquartz",
+        "quantity": 5
+      },
+      {
+        "item": "superalloy",
+        "quantity": 4
+      }
+    ]
+  },
   "": {
     "name": "",
     "type": "",
