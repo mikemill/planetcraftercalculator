@@ -786,5 +786,199 @@
         "quantity": 1
       }
     ]
+  },
+  "seedlirma": {
+    "name": "Seed Lirma",
+    "type": "seed",
+    "dependencies": []
+  },
+  "seedshanga": {
+    "name": "Seed Shanga",
+    "type": "seed",
+    "dependencies": []
+  },
+  "seedpestera": {
+    "name": "Seed Pestera",
+    "type": "seed",
+    "dependencies": []
+  },
+  "seednulna": {
+    "name": "Seed Nulna",
+    "type": "seed",
+    "dependencies": []
+  },
+  "seedtuska": {
+    "name": "Seed Tuska",
+    "type": "seed",
+    "dependencies": []
+  },
+  "seedorema": {
+    "name": "Seed Orema",
+    "type": "seed",
+    "dependencies": []
+  },
+  "seedvolnus": {
+    "name": "Seed Volnus",
+    "type": "seed",
+    "dependencies": []
+  },
+  "seedgolden": {
+    "name": "Golden Seed",
+    "type": "seed",
+    "dependencies": []
+  },
+  "treebark": {
+    "name": "Tree Bark",
+    "type": "treeseed",
+    "dependencies": []
+  },
+  "treeseediterra": {
+    "name": "Tree Seed Iterra",
+    "type": "treeseed",
+    "dependencies": []
+  },
+  "treeseedlinifolia": {
+    "name": "Tree Seed Linifolia",
+    "type": "treeseed",
+    "dependencies": [
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "seedshanga",
+        "quantity": 1
+      }
+    ]
+  },
+  "treeseedaleatus": {
+    "name": "Tree Seed Aleatus",
+    "type": "treeseed",
+    "dependencies": [
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "seedpestera",
+        "quantity": 1
+      }
+    ]
+  },
+  "treeseedcernea": {
+    "name": "Tree Seed Cernea",
+    "type": "treeseed",
+    "dependencies": [
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "seednulna",
+        "quantity": 1
+      }
+    ]
+  },
+  "treeseedelegae": {
+    "name": "Tree Seed Elegea",
+    "type": "treeseed",
+    "dependencies": [
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "seedtuska",
+        "quantity": 1
+      }
+    ]
+  },
+  "treeseedhumelora": {
+    "name": "Tree Seed Humelora",
+    "type": "treeseed",
+    "dependencies": [
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "seedorema",
+        "quantity": 1
+      }
+    ]
+  },
+  "treeseedaemora": {
+    "name": "Tree Seed Aemora",
+    "type": "treeseed",
+    "dependencies": [
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "seedvolnus",
+        "quantity": 1
+      }
+    ]
+  },
+  "treeseedpleom": {
+    "name": "Tree Seed Pleom",
+    "type": "treeseed",
+    "dependencies": [
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "seedgolden",
+        "quantity": 1
+      }
+    ]
+  },
+  "treeseedsoleus": {
+    "name": "Tree Seed Soleus",
+    "type": "treeseed",
+    "dependencies": [
+      {
+        "item": "treebark",
+        "quantity": 1
+      },
+      {
+        "item": "mutagen",
+        "quantity": 1
+      },
+      {
+        "item": "seedlirma",
+        "quantity": 1
+      }
+    ]
   }
 }
