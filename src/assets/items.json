@@ -149,5 +149,141 @@
         "quantity": 1
       }
     ]
+  },
+  "algae": {
+    "name": "Algae",
+    "type": "bio",
+    "dependencies": []
+  },
+  "methane": {
+    "name": "Methane Cart",
+    "type": "bio",
+    "dependencies": []
+  },
+  "bacteria": {
+    "name": "Bacteria Sample",
+    "type": "bio",
+    "dependencies": [
+      {
+        "item": "algae",
+        "quantity": 3
+      },
+      {
+        "item": "water",
+        "quantity": 3
+      }
+    ]
+  },
+  "bioplastic": {
+    "name": "Bioplastic Nugget",
+    "type": "bio",
+    "dependencies": [
+      {
+        "item": "mushroom",
+        "quantity": 2
+      },
+      {
+        "item": "silicon",
+        "quantity": 1
+      },
+      {
+        "item": "water",
+        "quantity": 1
+      }
+    ]
+  },
+  "fertilizer": {
+    "name": "Fertilizer",
+    "type": "bio",
+    "dependencies": [
+      {
+        "item": "algae",
+        "quantity": 3
+      },
+      {
+        "item": "eggplant",
+        "quantity": 2
+      },
+      {
+        "item": "sulfur",
+        "quantity": 1
+      }
+    ]
+  },
+  "fertilizert2": {
+    "name": "Fertilizer T2",
+    "type": "bio",
+    "dependencies": [
+      {
+        "item": "fertilizer",
+        "quantity": 1
+      },
+      {
+        "item": "algae",
+        "quantity": 1
+      },
+      {
+        "item": "squash",
+        "quantity": 1
+      },
+      {
+        "item": "methane",
+        "quantity": 2
+      }
+    ]
+  },
+  "explosivepowder": {
+    "name": "Explosive Powder",
+    "type": "bio",
+    "dependencies": [
+      {
+        "item": "sulfur",
+        "quantity": 2
+      },
+      {
+        "item": "iridium",
+        "quantity": 1
+      }
+    ]
+  },
+  "mutagen": {
+    "name": "Mutagen",
+    "type": "bio",
+    "dependencies": [
+      {
+        "item": "bacteria",
+        "quantity": 1
+      },
+      {
+        "item": "methane",
+        "quantity": 1
+      },
+      {
+        "item": "sulfur",
+        "quantity": 1
+      }
+    ]
+  },
+  "pulsarquartz": {
+    "name": "Pulsar Quartz",
+    "type": "bio",
+    "dependencies": [
+      {
+        "item": "zeolite",
+        "quantity": 1
+      },
+      {
+        "item": "osmium",
+        "quantity": 1
+      },
+      {
+        "item": "uranium",
+        "quantity": 1
+      },
+      {
+        "item": "iridium",
+        "quantity": 1
+      }
+    ]
   }
 }
