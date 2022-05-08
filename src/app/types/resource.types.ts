@@ -5,5 +5,6 @@ export interface Dependencies {
 
 export interface Item {
   name: string;
+  type: string;
   dependencies: Dependencies[];
 }

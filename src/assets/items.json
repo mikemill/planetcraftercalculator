@@ -61,6 +61,7 @@
   },
   "superalloy": {
     "name": "Super Alloy",
+    "type": "industrial",
     "dependencies": [
       {
         "item": "cobalt",
@@ -84,6 +85,67 @@
       },
       {
         "item": "aluminium",
+        "quantity": 1
+      }
+    ]
+  },
+  "iridiumrod": {
+    "name": "Iridium Rod",
+    "type": "industrial",
+    "dependencies": [
+      {
+        "item": "iridium",
+        "quantity": 9
+      }
+    ]
+  },
+  "uraniumrod": {
+    "name": "Uranium Rod",
+    "type": "industrial",
+    "dependencies": [
+      {
+        "item": "uranium",
+        "quantity": 9
+      }
+    ]
+  },
+  "fabric": {
+    "name": "Fabric",
+    "type": "industrial",
+    "dependencies": []
+  },
+  "rocketengine": {
+    "name": "Rocket Engine",
+    "type": "industrial",
+    "dependencies": [
+      {
+        "item": "superalloy",
+        "quantity": 1
+      },
+      {
+        "item": "uranium",
+        "quantity": 2
+      },
+      {
+        "item": "iridiumrod",
+        "quantity": 1
+      }
+    ]
+  },
+  "fusionenergycell": {
+    "name": "Fusion Energy Cell",
+    "type": "industrial",
+    "dependencies": [
+      {
+        "item": "pulsarquartz",
+        "quantity": 3
+      },
+      {
+        "item": "osmium",
+        "quantity": 2
+      },
+      {
+        "item": "superalloy",
         "quantity": 1
       }
     ]
