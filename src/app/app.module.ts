@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { NgxSelectModule } from 'ngx-select-ex';
 
 import { AppComponent } from './app.component';
 
@@ -26,7 +30,15 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [AppComponent, ItemsListComponent, BuildItemsComponent],
-  imports: [BrowserModule, RouterModule.forRoot(routes), NgbModule],
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(routes),
+    NgbModule,
+    NgxSelectModule,
+    FormsModule,
+    ReactiveFormsModule,
+    FontAwesomeModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

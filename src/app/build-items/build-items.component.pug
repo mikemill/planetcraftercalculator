@@ -1,2 +1,49 @@
-ngx-select([items]="items", optionTextField="name", optionValueField="key")
-pre {{ items | json }}
+ngx-select(
+  [items]="items",
+  optionTextField="name",
+  optionValueField="key",
+  [allowClear]="true",
+  [formControl]="itemControl"
+)
+
+.row
+  .col
+    h1 Items to Build
+    table.table.table-striped 
+      thead 
+        tr
+          th Item
+          th Quantity
+      tbody 
+        tr(*ngFor="let item of itemsAndQuantities", [formGroup]="item")
+          td {{ item.value.item.name }}
+          td
+            .input-group
+              input.form-control(
+                type="number",
+                step="1",
+                formControlName="quantity"
+              )
+              .input-group-append
+                button.btn.ml-2.btn-danger((click)="removeItem(item)")
+                  fa-icon.ml-2([icon]="faTrashAlt")
+
+  .col
+    h1 Items Needed
+    table.table.table-striped 
+      thead 
+        tr
+          th Item
+          th Quantity
+      tbody 
+        tr(*ngFor="let item of dependencies")
+          td {{ item.name }}
+          td {{ item.quantity }}
+  .col 
+    h1 Resource Deltas
+    ul 
+      li(*ngIf="resource_changes.power") #[strong Power]: {{ resource_changes.power | number }} kw/h
+      li(*ngIf="resource_changes.heat") #[strong Heat]: {{ resource_changes.heat | number }} pK/s
+      li(*ngIf="resource_changes.pressure") #[strong Pressure]: {{ resource_changes.pressure | number }} nPa/s
+      li(*ngIf="resource_changes.oxygen") #[strong Oxygen]: {{ resource_changes.oxygen | number }} ppq/s
+      li(*ngIf="resource_changes.biomass") #[strong Biomass]: {{ resource_changes.biomass | number }} g/s
