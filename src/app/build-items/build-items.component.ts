@@ -56,10 +56,6 @@ export class BuildItemsComponent implements OnInit {
     this.quantities.valueChanges.subscribe((values) => {
       this.calculateDependencies();
     });
-
-    this.itemControl.patchValue('screenblueprints');
-    this.itemControl.patchValue('solarpanel2');
-    this.itemControl.patchValue('rocketseedspreader');
   }
 
   removeItem(itemGroup: any) {
