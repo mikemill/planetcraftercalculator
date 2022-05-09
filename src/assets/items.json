@@ -1590,7 +1590,7 @@
     "key": "vegetube2",
     "name": "Vegetube T2",
     "type": "vegetube",
-    "power": -3.5,
+    "power": -1.25,
     "oxygen": 1.2,
     "dependencies": [
       {
@@ -2466,6 +2466,187 @@
       {
         "item": "superalloy",
         "quantity": 2
+      }
+    ]
+  },
+  {
+    "key": "biolab",
+    "name": "Biolab",
+    "type": "base",
+    "power": -40,
+    "dependencies": [
+      {
+        "item": "osmium",
+        "quantity": 2
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "key": "storagecrate",
+    "name": "Storage Crate",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "key": "storagelocker",
+    "name": "Locker Storage",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "key": "bed",
+    "name": "Bed",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "fabric",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "key": "chair",
+    "name": "Chair",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "fabric",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "key": "desktop",
+    "name": "Desktop",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "key": "beddouble",
+    "name": "Double Bed",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "fabric",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "key": "sofa",
+    "name": "Sofa",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "fabric",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "key": "sofaangle",
+    "name": "Sofa Angle",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "fabric",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "key": "table",
+    "name": "Table",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "key": "flowerpot",
+    "name": "Flower Pot",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "magnesium",
+        "quantity": 1
+      },
+      {
+        "item": "cobalt",
+        "quantity": 1
+      },
+      {
+        "item": "fertilizer",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "key": "displaycase",
+    "name": "Display Case",
+    "type": "furniture",
+    "dependencies": [
+      {
+        "item": "cobalt",
+        "quantity": 2
+      },
+      {
+        "item": "iron",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 1
       }
     ]
   }
