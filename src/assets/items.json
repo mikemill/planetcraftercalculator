@@ -2413,5 +2413,60 @@
         "quantity": 1
       }
     ]
+  },
+  {
+    "key": "biodome1",
+    "name": "Biodome T1",
+    "type": "base",
+    "power": -37,
+    "oxygen": 135,
+    "dependencies": [
+      {
+        "item": "seedlirma",
+        "quantity": 1
+      },
+      {
+        "item": "titanium",
+        "quantity": 2
+      },
+      {
+        "item": "cobalt",
+        "quantity": 2
+      },
+      {
+        "item": "aluminium",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "key": "biodome2",
+    "name": "Biodome T2",
+    "type": "base",
+    "power": -75,
+    "oxygen": 1450,
+    "biomass": 11,
+    "dependencies": [
+      {
+        "item": "fertilizer",
+        "quantity": 2
+      },
+      {
+        "item": "bacteria",
+        "quantity": 2
+      },
+      {
+        "item": "sulfur",
+        "quantity": 1
+      },
+      {
+        "item": "superalloy",
+        "quantity": 2
+      }
+    ]
   }
 ]
