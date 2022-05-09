@@ -10,9 +10,14 @@ import ItemsJson from '../../assets/items.json';
   styleUrls: ['./items-list.component.scss'],
 })
 export class ItemsListComponent implements OnInit {
-  items: { [index: string]: Item } = ItemsJson;
+  items: Item[] = ItemsJson;
+  itemNames: { [index: string]: string } = {};
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.items.forEach((item) => {
+      this.itemNames[item.key] = item.name;
+    });
+  }
 }

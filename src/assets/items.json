@@ -1,65 +1,78 @@
-{
-  "iron": {
+[
+  {
+    "key": "iron",
     "name": "Iron",
     "type": "ore",
     "dependencies": []
   },
-  "titanium": {
+  {
+    "key": "titanium",
     "name": "Titanium",
     "type": "ore",
     "dependencies": []
   },
-  "cobalt": {
+  {
+    "key": "cobalt",
     "name": "Cobalt",
     "type": "ore",
     "dependencies": []
   },
-  "magnesium": {
+  {
+    "key": "magnesium",
     "name": "Magnesium",
     "type": "ore",
     "dependencies": []
   },
-  "silicon": {
+  {
+    "key": "silicon",
     "name": "Silicon",
     "type": "ore",
     "dependencies": []
   },
-  "aluminium": {
+  {
+    "key": "aluminium",
     "name": "Aluminium",
     "type": "ore",
     "dependencies": []
   },
-  "ice": {
+  {
+    "key": "ice",
     "name": "Ice",
     "type": "ore",
     "dependencies": []
   },
-  "iridium": {
+  {
+    "key": "iridium",
     "name": "Iridium",
     "type": "ore",
     "dependencies": []
   },
-  "uranium": {
+  {
+    "key": "uranium",
     "name": "Uranium",
     "type": "ore",
     "dependencies": []
   },
-  "osmium": {
+  {
+    "key": "osmium",
     "name": "Osmium",
     "type": "ore",
     "dependencies": []
   },
-  "sulfur": {
+  {
+    "key": "sulfur",
     "name": "Sulfur",
     "type": "ore",
     "dependencies": []
   },
-  "zeolite": {
+  {
+    "key": "zeolite",
     "name": "Zeolite",
     "type": "ore",
     "dependencies": []
   },
-  "superalloy": {
+  {
+    "key": "superalloy",
     "name": "Super Alloy",
     "type": "industrial",
     "dependencies": [
@@ -89,7 +102,8 @@
       }
     ]
   },
-  "iridiumrod": {
+  {
+    "key": "iridiumrod",
     "name": "Iridium Rod",
     "type": "industrial",
     "dependencies": [
@@ -99,7 +113,8 @@
       }
     ]
   },
-  "uraniumrod": {
+  {
+    "key": "uraniumrod",
     "name": "Uranium Rod",
     "type": "industrial",
     "dependencies": [
@@ -109,12 +124,14 @@
       }
     ]
   },
-  "fabric": {
+  {
+    "key": "fabric",
     "name": "Fabric",
     "type": "industrial",
     "dependencies": []
   },
-  "rocketengine": {
+  {
+    "key": "rocketengine",
     "name": "Rocket Engine",
     "type": "industrial",
     "dependencies": [
@@ -132,7 +149,8 @@
       }
     ]
   },
-  "fusionenergycell": {
+  {
+    "key": "fusionenergycell",
     "name": "Fusion Energy Cell",
     "type": "industrial",
     "dependencies": [
@@ -150,17 +168,20 @@
       }
     ]
   },
-  "algae": {
+  {
+    "key": "algae",
     "name": "Algae",
     "type": "bio",
     "dependencies": []
   },
-  "methane": {
+  {
+    "key": "methane",
     "name": "Methane Cart",
     "type": "bio",
     "dependencies": []
   },
-  "bacteria": {
+  {
+    "key": "bacteria",
     "name": "Bacteria Sample",
     "type": "bio",
     "dependencies": [
@@ -174,7 +195,8 @@
       }
     ]
   },
-  "bioplastic": {
+  {
+    "key": "bioplastic",
     "name": "Bioplastic Nugget",
     "type": "bio",
     "dependencies": [
@@ -192,7 +214,8 @@
       }
     ]
   },
-  "fertilizer": {
+  {
+    "key": "fertilizer",
     "name": "Fertilizer",
     "type": "bio",
     "dependencies": [
@@ -210,7 +233,8 @@
       }
     ]
   },
-  "fertilizer2": {
+  {
+    "key": "fertilizer2",
     "name": "Fertilizer T2",
     "type": "bio",
     "dependencies": [
@@ -232,7 +256,8 @@
       }
     ]
   },
-  "explosivepowder": {
+  {
+    "key": "explosivepowder",
     "name": "Explosive Powder",
     "type": "bio",
     "dependencies": [
@@ -246,7 +271,8 @@
       }
     ]
   },
-  "mutagen": {
+  {
+    "key": "mutagen",
     "name": "Mutagen",
     "type": "bio",
     "dependencies": [
@@ -264,7 +290,8 @@
       }
     ]
   },
-  "pulsarquartz": {
+  {
+    "key": "pulsarquartz",
     "name": "Pulsar Quartz",
     "type": "bio",
     "dependencies": [
@@ -286,12 +313,14 @@
       }
     ]
   },
-  "spacefood": {
+  {
+    "key": "spacefood",
     "name": "Space Food",
     "type": "consumable",
     "dependencies": []
   },
-  "water": {
+  {
+    "key": "water",
     "name": "Water Bottle",
     "type": "consumable",
     "dependencies": [
@@ -301,7 +330,8 @@
       }
     ]
   },
-  "oxygen": {
+  {
+    "key": "oxygen",
     "name": "Oxygen Capsule",
     "type": "consumable",
     "dependencies": [
@@ -311,27 +341,32 @@
       }
     ]
   },
-  "eggplant": {
+  {
+    "key": "eggplant",
     "name": "Eggplant",
     "type": "food",
     "dependencies": []
   },
-  "squash": {
+  {
+    "key": "squash",
     "name": "Squash",
     "type": "food",
     "dependencies": []
   },
-  "beans": {
+  {
+    "key": "beans",
     "name": "Beans",
     "type": "food",
     "dependencies": []
   },
-  "mushroom": {
+  {
+    "key": "mushroom",
     "name": "Mushroom",
     "type": "food",
     "dependencies": []
   },
-  "oxygentank1": {
+  {
+    "key": "oxygentank1",
     "name": "Oxygen Tank T1",
     "type": "equipment",
     "dependencies": [
@@ -349,7 +384,8 @@
       }
     ]
   },
-  "oxygentank2": {
+  {
+    "key": "oxygentank2",
     "name": "Oxygen Tank T2",
     "type": "equipment",
     "dependencies": [
@@ -375,7 +411,8 @@
       }
     ]
   },
-  "oxygentank3": {
+  {
+    "key": "oxygentank3",
     "name": "Oxygen Tank T3",
     "type": "equipment",
     "dependencies": [
@@ -405,7 +442,8 @@
       }
     ]
   },
-  "oxygentank4": {
+  {
+    "key": "oxygentank4",
     "name": "Oxygen Tank T4",
     "type": "equipment",
     "dependencies": [
@@ -423,7 +461,8 @@
       }
     ]
   },
-  "backpack1": {
+  {
+    "key": "backpack1",
     "name": "Backpack T1",
     "type": "equipment",
     "dependencies": [
@@ -433,7 +472,8 @@
       }
     ]
   },
-  "backpack2": {
+  {
+    "key": "backpack2",
     "name": "Backpack T2",
     "type": "equipment",
     "dependencies": [
@@ -455,7 +495,8 @@
       }
     ]
   },
-  "backpack3": {
+  {
+    "key": "backpack3",
     "name": "Backpack T3",
     "type": "equipment",
     "dependencies": [
@@ -477,7 +518,8 @@
       }
     ]
   },
-  "backpack4": {
+  {
+    "key": "backpack4",
     "name": "Backpack T4",
     "type": "equipment",
     "dependencies": [
@@ -495,7 +537,8 @@
       }
     ]
   },
-  "backpack5": {
+  {
+    "key": "backpack5",
     "name": "Backpack T5",
     "type": "equipment",
     "dependencies": [
@@ -513,7 +556,8 @@
       }
     ]
   },
-  "exoskeleton1": {
+  {
+    "key": "exoskeleton1",
     "name": "Exoskeleton T1",
     "type": "equipment",
     "dependencies": [
@@ -531,7 +575,8 @@
       }
     ]
   },
-  "exoskeleton2": {
+  {
+    "key": "exoskeleton2",
     "name": "Exoskeleton T2",
     "type": "equipment",
     "dependencies": [
@@ -557,7 +602,8 @@
       }
     ]
   },
-  "jetpack1": {
+  {
+    "key": "jetpack1",
     "name": "Jetpack T1",
     "type": "equipment",
     "dependencies": [
@@ -571,7 +617,8 @@
       }
     ]
   },
-  "jetpack2": {
+  {
+    "key": "jetpack2",
     "name": "Jetpack T2",
     "type": "equipment",
     "dependencies": [
@@ -597,7 +644,8 @@
       }
     ]
   },
-  "jetpack3": {
+  {
+    "key": "jetpack3",
     "name": "Jetpack T3",
     "type": "equipment",
     "dependencies": [
@@ -619,7 +667,8 @@
       }
     ]
   },
-  "agilityboots1": {
+  {
+    "key": "agilityboots1",
     "name": "Agility Boots T1",
     "type": "equipment",
     "dependencies": [
@@ -633,7 +682,8 @@
       }
     ]
   },
-  "agilityboots2": {
+  {
+    "key": "agilityboots2",
     "name": "Agility Boots T2",
     "type": "equipment",
     "dependencies": [
@@ -651,7 +701,8 @@
       }
     ]
   },
-  "agilityboots3": {
+  {
+    "key": "agilityboots3",
     "name": "Agility Boots T3",
     "type": "equipment",
     "dependencies": [
@@ -669,7 +720,8 @@
       }
     ]
   },
-  "microchipconstruction": {
+  {
+    "key": "microchipconstruction",
     "name": "Microchip - Construction",
     "type": "microchip",
     "dependencies": [
@@ -683,7 +735,8 @@
       }
     ]
   },
-  "microchipdeconstruction": {
+  {
+    "key": "microchipdeconstruction",
     "name": "Microchip - Deconstruction",
     "type": "microchip",
     "dependencies": [
@@ -697,7 +750,8 @@
       }
     ]
   },
-  "microchiptorch": {
+  {
+    "key": "microchiptorch",
     "name": "Microchip - Torch",
     "type": "microchip",
     "dependencies": [
@@ -711,7 +765,8 @@
       }
     ]
   },
-  "microchipcompass": {
+  {
+    "key": "microchipcompass",
     "name": "Microchip - Compass",
     "type": "microchip",
     "dependencies": [
@@ -729,7 +784,8 @@
       }
     ]
   },
-  "microchipmining1": {
+  {
+    "key": "microchipmining1",
     "name": "Microchip - Mining Speed T1",
     "type": "microchip",
     "dependencies": [
@@ -747,7 +803,8 @@
       }
     ]
   },
-  "microchipmining2": {
+  {
+    "key": "microchipmining2",
     "name": "Microchip - Mining Speed T2",
     "type": "microchip",
     "dependencies": [
@@ -765,7 +822,8 @@
       }
     ]
   },
-  "microchipmining3": {
+  {
+    "key": "microchipmining3",
     "name": "Microchip - Mining Speed T3",
     "type": "microchip",
     "dependencies": [
@@ -787,57 +845,68 @@
       }
     ]
   },
-  "seedlirma": {
+  {
+    "key": "seedlirma",
     "name": "Seed Lirma",
     "type": "seed",
     "dependencies": []
   },
-  "seedshanga": {
+  {
+    "key": "seedshanga",
     "name": "Seed Shanga",
     "type": "seed",
     "dependencies": []
   },
-  "seedpestera": {
+  {
+    "key": "seedpestera",
     "name": "Seed Pestera",
     "type": "seed",
     "dependencies": []
   },
-  "seednulna": {
+  {
+    "key": "seednulna",
     "name": "Seed Nulna",
     "type": "seed",
     "dependencies": []
   },
-  "seedtuska": {
+  {
+    "key": "seedtuska",
     "name": "Seed Tuska",
     "type": "seed",
     "dependencies": []
   },
-  "seedorema": {
+  {
+    "key": "seedorema",
     "name": "Seed Orema",
     "type": "seed",
     "dependencies": []
   },
-  "seedvolnus": {
+  {
+    "key": "seedvolnus",
     "name": "Seed Volnus",
     "type": "seed",
     "dependencies": []
   },
-  "seedgolden": {
+  {
+    "key": "seedgolden",
     "name": "Golden Seed",
     "type": "seed",
     "dependencies": []
   },
-  "treebark": {
+  {
+    "key": "treebark",
     "name": "Tree Bark",
     "type": "treeseed",
     "dependencies": []
   },
-  "treeseediterra": {
+  {
+    "key": "treeseediterra",
     "name": "Tree Seed Iterra",
     "type": "treeseed",
     "dependencies": []
   },
-  "treeseedlinifolia": {
+  {
+    "key": "treeseedlinifolia",
     "name": "Tree Seed Linifolia",
     "type": "treeseed",
     "dependencies": [
@@ -855,7 +924,8 @@
       }
     ]
   },
-  "treeseedaleatus": {
+  {
+    "key": "treeseedaleatus",
     "name": "Tree Seed Aleatus",
     "type": "treeseed",
     "dependencies": [
@@ -873,7 +943,8 @@
       }
     ]
   },
-  "treeseedcernea": {
+  {
+    "key": "treeseedcernea",
     "name": "Tree Seed Cernea",
     "type": "treeseed",
     "dependencies": [
@@ -891,7 +962,8 @@
       }
     ]
   },
-  "treeseedelegae": {
+  {
+    "key": "treeseedelegae",
     "name": "Tree Seed Elegea",
     "type": "treeseed",
     "dependencies": [
@@ -909,7 +981,8 @@
       }
     ]
   },
-  "treeseedhumelora": {
+  {
+    "key": "treeseedhumelora",
     "name": "Tree Seed Humelora",
     "type": "treeseed",
     "dependencies": [
@@ -927,7 +1000,8 @@
       }
     ]
   },
-  "treeseedaemora": {
+  {
+    "key": "treeseedaemora",
     "name": "Tree Seed Aemora",
     "type": "treeseed",
     "dependencies": [
@@ -945,7 +1019,8 @@
       }
     ]
   },
-  "treeseedpleom": {
+  {
+    "key": "treeseedpleom",
     "name": "Tree Seed Pleom",
     "type": "treeseed",
     "dependencies": [
@@ -963,7 +1038,8 @@
       }
     ]
   },
-  "treeseedsoleus": {
+  {
+    "key": "treeseedsoleus",
     "name": "Tree Seed Soleus",
     "type": "treeseed",
     "dependencies": [
@@ -981,7 +1057,8 @@
       }
     ]
   },
-  "screenblueprints": {
+  {
+    "key": "screenblueprints",
     "name": "Screen - Blueprints",
     "type": "screen",
     "power": -0.2,
@@ -996,7 +1073,8 @@
       }
     ]
   },
-  "screenenergy": {
+  {
+    "key": "screenenergy",
     "name": "Screen - Energy Levels",
     "type": "screen",
     "power": -0.4,
@@ -1015,7 +1093,8 @@
       }
     ]
   },
-  "screenmap": {
+  {
+    "key": "screenmap",
     "name": "Screen - Mapping",
     "type": "screen",
     "power": -1.4,
@@ -1034,7 +1113,8 @@
       }
     ]
   },
-  "screenprogress": {
+  {
+    "key": "screenprogress",
     "name": "Screen - Progress",
     "type": "screen",
     "power": -1.3,
@@ -1053,7 +1133,8 @@
       }
     ]
   },
-  "screenterraformation": {
+  {
+    "key": "screenterraformation",
     "name": "Screen - Terraformation",
     "type": "screen",
     "power": -0.4,
@@ -1072,7 +1153,8 @@
       }
     ]
   },
-  "screentransmissions": {
+  {
+    "key": "screentransmissions",
     "name": "Screen - Transmissions",
     "type": "screen",
     "power": -0.4,
@@ -1091,7 +1173,8 @@
       }
     ]
   },
-  "sign": {
+  {
+    "key": "sign",
     "name": "Sign",
     "type": "screen",
     "dependencies": [
@@ -1101,7 +1184,8 @@
       }
     ]
   },
-  "windturbine": {
+  {
+    "key": "windturbine",
     "name": "Wind Turbin",
     "type": "power",
     "power": 1.2,
@@ -1112,7 +1196,8 @@
       }
     ]
   },
-  "solarpanel1": {
+  {
+    "key": "solarpanel1",
     "name": "Solar Panel T1",
     "type": "power",
     "power": 6.5,
@@ -1131,7 +1216,8 @@
       }
     ]
   },
-  "solarpanel2": {
+  {
+    "key": "solarpanel2",
     "name": "Solar Panel T2",
     "type": "power",
     "power": 19.5,
@@ -1158,7 +1244,8 @@
       }
     ]
   },
-  "nuclearreactor1": {
+  {
+    "key": "nuclearreactor1",
     "name": "Nuclear Reactor T1",
     "type": "power",
     "power": 86.5,
@@ -1177,7 +1264,8 @@
       }
     ]
   },
-  "nuclearreactor2": {
+  {
+    "key": "nuclearreactor2",
     "name": "Nuclear Reactor T2",
     "type": "power",
     "power": 331.5,
@@ -1200,7 +1288,8 @@
       }
     ]
   },
-  "fusiongenerator": {
+  {
+    "key": "fusiongenerator",
     "name": "Nuclear Fusion Generator",
     "type": "power",
     "power": 1835.5,
@@ -1215,7 +1304,8 @@
       }
     ]
   },
-  "outsidelamp": {
+  {
+    "key": "outsidelamp",
     "name": "Outside Lamp",
     "type": "lamps",
     "power": -0.3,
@@ -1230,7 +1320,8 @@
       }
     ]
   },
-  "arealamp": {
+  {
+    "key": "arealamp",
     "name": "Area Lamp",
     "type": "lamps",
     "power": -1.2,
@@ -1245,7 +1336,8 @@
       }
     ]
   },
-  "beacon": {
+  {
+    "key": "beacon",
     "name": "Beacon",
     "type": "lamps",
     "power": -1.2,
@@ -1260,7 +1352,8 @@
       }
     ]
   },
-  "craftstation2": {
+  {
+    "key": "craftstation2",
     "name": "Craft Station T2",
     "type": "craftingstation",
     "power": -0.5,
@@ -1275,7 +1368,8 @@
       }
     ]
   },
-  "craftstationadv": {
+  {
+    "key": "craftstationadv",
     "name": "Advanced Craft Station",
     "type": "craftingstation",
     "power": -12.5,
@@ -1298,7 +1392,8 @@
       }
     ]
   },
-  "heater1": {
+  {
+    "key": "heater1",
     "name": "Heater T1",
     "type": "heaters",
     "power": -1,
@@ -1318,7 +1413,8 @@
       }
     ]
   },
-  "heater2": {
+  {
+    "key": "heater2",
     "name": "Heater T2",
     "type": "heaters",
     "power": -3.5,
@@ -1346,7 +1442,8 @@
       }
     ]
   },
-  "heater3": {
+  {
+    "key": "heater3",
     "name": "Heater T3",
     "type": "heaters",
     "power": -17.5,
@@ -1371,7 +1468,8 @@
       }
     ]
   },
-  "heater4": {
+  {
+    "key": "heater4",
     "name": "Heater T4",
     "type": "heaters",
     "power": -51.5,
@@ -1392,7 +1490,8 @@
       }
     ]
   },
-  "drill1": {
+  {
+    "key": "drill1",
     "name": "Drill T1",
     "type": "drills",
     "power": -0.5,
@@ -1408,7 +1507,8 @@
       }
     ]
   },
-  "drill2": {
+  {
+    "key": "drill2",
     "name": "Drill T2",
     "type": "drills",
     "power": -5,
@@ -1425,7 +1525,8 @@
       }
     ]
   },
-  "drill3": {
+  {
+    "key": "drill3",
     "name": "Drill T3",
     "type": "drills",
     "power": -8.5,
@@ -1446,7 +1547,8 @@
       }
     ]
   },
-  "drill4": {
+  {
+    "key": "drill4",
     "name": "Drill T4",
     "type": "drills",
     "power": -45.5,
@@ -1463,7 +1565,8 @@
       }
     ]
   },
-  "vegetube1": {
+  {
+    "key": "vegetube1",
     "name": "Vegetube T1",
     "type": "vegetube",
     "power": -0.35,
@@ -1483,7 +1586,8 @@
       }
     ]
   },
-  "vegetube2": {
+  {
+    "key": "vegetube2",
     "name": "Vegetube T2",
     "type": "vegetube",
     "power": -3.5,
@@ -1507,7 +1611,8 @@
       }
     ]
   },
-  "vegetube3": {
+  {
+    "key": "vegetube3",
     "name": "Vegetube T3",
     "type": "vegetube",
     "power": -7.25,
@@ -1531,7 +1636,8 @@
       }
     ]
   },
-  "foodgrower1": {
+  {
+    "key": "foodgrower1",
     "name": "Food Grower T1",
     "type": "foodgrower",
     "power": -15,
@@ -1550,7 +1656,8 @@
       }
     ]
   },
-  "foodgrower2": {
+  {
+    "key": "foodgrower2",
     "name": "Food Grower T2",
     "type": "foodgrower",
     "power": -29.5,
@@ -1569,7 +1676,8 @@
       }
     ]
   },
-  "grassspreader": {
+  {
+    "key": "grassspreader",
     "name": "Grass Spreader",
     "type": "biomassspreader",
     "power": -13.8,
@@ -1594,7 +1702,8 @@
       }
     ]
   },
-  "flowerspreader1": {
+  {
+    "key": "flowerspreader1",
     "name": "Flower Spreader T1",
     "type": "biomassspreader",
     "power": -28.8,
@@ -1619,7 +1728,8 @@
       }
     ]
   },
-  "flowerspreader2": {
+  {
+    "key": "flowerspreader2",
     "name": "Flower Spreader T2",
     "type": "biomassspreader",
     "power": -38.8,
@@ -1640,7 +1750,8 @@
       }
     ]
   },
-  "algaegenerator1": {
+  {
+    "key": "algaegenerator1",
     "name": "Algae Spreader T1",
     "type": "biomassspreader",
     "power": -13,
@@ -1669,7 +1780,8 @@
       }
     ]
   },
-  "algaegenerator2": {
+  {
+    "key": "algaegenerator2",
     "name": "Algae Spreader T2",
     "type": "biomassspreader",
     "power": -27,
@@ -1698,7 +1810,8 @@
       }
     ]
   },
-  "treespreader1": {
+  {
+    "key": "treespreader1",
     "name": "Tree Spreader T1",
     "type": "biomassspreader",
     "power": -31,
@@ -1727,7 +1840,8 @@
       }
     ]
   },
-  "treespreader2": {
+  {
+    "key": "treespreader2",
     "name": "Tree Spreader T2",
     "type": "biomassspreader",
     "power": -71,
@@ -1756,7 +1870,8 @@
       }
     ]
   },
-  "treespreader3": {
+  {
+    "key": "treespreader3",
     "name": "Tree Spreader T3",
     "type": "biomassspreader",
     "power": -193,
@@ -1785,7 +1900,8 @@
       }
     ]
   },
-  "oreextractor1": {
+  {
+    "key": "oreextractor1",
     "name": "Ore Extractor T1",
     "type": "oreextractor",
     "power": -34,
@@ -1814,7 +1930,8 @@
       }
     ]
   },
-  "oreextractor2": {
+  {
+    "key": "oreextractor2",
     "name": "Ore Extractor T2",
     "type": "oreextractor",
     "power": -164,
@@ -1835,7 +1952,8 @@
       }
     ]
   },
-  "gasextractor": {
+  {
+    "key": "gasextractor",
     "name": "Gas Extractor",
     "type": "gasextractor",
     "power": -58,
@@ -1855,7 +1973,8 @@
       }
     ]
   },
-  "watercollectoratmo": {
+  {
+    "key": "watercollectoratmo",
     "name": "Atmospheric Water Collector",
     "type": "watercollector",
     "power": -11,
@@ -1886,7 +2005,8 @@
       }
     ]
   },
-  "watercollectorlake": {
+  {
+    "key": "watercollectorlake",
     "name": "Lake Water Collector",
     "type": "watercollector",
     "power": -19,
@@ -1917,7 +2037,8 @@
       }
     ]
   },
-  "communicationantenna": {
+  {
+    "key": "communicationantenna",
     "name": "Communication Antenna",
     "type": "basemisc",
     "power": -15,
@@ -1940,7 +2061,8 @@
       }
     ]
   },
-  "recycling": {
+  {
+    "key": "recycling",
     "name": "Recycling Machine",
     "type": "basemisc",
     "power": -12.5,
@@ -1955,7 +2077,8 @@
       }
     ]
   },
-  "shredder": {
+  {
+    "key": "shredder",
     "name": "Shredder Machine",
     "type": "basemisc",
     "power": -6,
@@ -1978,7 +2101,8 @@
       }
     ]
   },
-  "dnamanipulator": {
+  {
+    "key": "dnamanipulator",
     "name": "DNA Manipulator",
     "type": "basemisc",
     "power": -117.5,
@@ -2001,7 +2125,8 @@
       }
     ]
   },
-  "foundation": {
+  {
+    "key": "foundation",
     "name": "Foundation",
     "type": "base",
     "dependencies": [
@@ -2011,7 +2136,8 @@
       }
     ]
   },
-  "ladderindoor": {
+  {
+    "key": "ladderindoor",
     "name": "Indoor Ladder",
     "type": "base",
     "dependencies": [
@@ -2025,7 +2151,8 @@
       }
     ]
   },
-  "launchplatform": {
+  {
+    "key": "launchplatform",
     "name": "Launch Platform",
     "type": "base",
     "power": -55,
@@ -2044,7 +2171,8 @@
       }
     ]
   },
-  "compartmentregular": {
+  {
+    "key": "compartmentregular",
     "name": "Living Compartment",
     "type": "base",
     "dependencies": [
@@ -2058,7 +2186,8 @@
       }
     ]
   },
-  "compartmentbig": {
+  {
+    "key": "compartmentbig",
     "name": "Big Living Compartment",
     "type": "base",
     "dependencies": [
@@ -2076,7 +2205,8 @@
       }
     ]
   },
-  "compartmentcorner": {
+  {
+    "key": "compartmentcorner",
     "name": "Living Compartment Corner",
     "type": "base",
     "dependencies": [
@@ -2094,7 +2224,8 @@
       }
     ]
   },
-  "compartmentdoor": {
+  {
+    "key": "compartmentdoor",
     "name": "Living Compartment Door",
     "type": "base",
     "dependencies": [
@@ -2112,7 +2243,8 @@
       }
     ]
   },
-  "compartmentglass": {
+  {
+    "key": "compartmentglass",
     "name": "Living Compartment Glass",
     "type": "base",
     "dependencies": [
@@ -2126,7 +2258,8 @@
       }
     ]
   },
-  "compartmentwindow": {
+  {
+    "key": "compartmentwindow",
     "name": "Living Compartment Window",
     "type": "base",
     "dependencies": [
@@ -2140,7 +2273,8 @@
       }
     ]
   },
-  "stairsoutside": {
+  {
+    "key": "stairsoutside",
     "name": "Outside Stairs",
     "type": "base",
     "dependencies": [
@@ -2150,7 +2284,8 @@
       }
     ]
   },
-  "rocketasteroid": {
+  {
+    "key": "rocketasteroid",
     "name": "Asteroids Attraction Rocket",
     "type": "rocket",
     "dependencies": [
@@ -2168,7 +2303,8 @@
       }
     ]
   },
-  "rocketmagneticfield": {
+  {
+    "key": "rocketmagneticfield",
     "name": "Magnetic Field Protection Rocket",
     "type": "rocket",
     "dependencies": [
@@ -2186,7 +2322,8 @@
       }
     ]
   },
-  "rocketgps1": {
+  {
+    "key": "rocketgps1",
     "name": "GPS Satellite T1",
     "type": "rocket",
     "dependencies": [
@@ -2204,7 +2341,8 @@
       }
     ]
   },
-  "rocketgps2": {
+  {
+    "key": "rocketgps2",
     "name": "GPS Satellite T2",
     "type": "rocket",
     "dependencies": [
@@ -2222,7 +2360,8 @@
       }
     ]
   },
-  "rocketbiomass": {
+  {
+    "key": "rocketbiomass",
     "name": "Biomass Rocket",
     "type": "rocket",
     "dependencies": [
@@ -2248,7 +2387,8 @@
       }
     ]
   },
-  "rocketseedspreader": {
+  {
+    "key": "rocketseedspreader",
     "name": "Seed Spreader Rocket",
     "type": "rocket",
     "dependencies": [
@@ -2274,4 +2414,4 @@
       }
     ]
   }
-}
+]

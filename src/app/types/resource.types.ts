@@ -4,6 +4,7 @@ export interface Dependencies {
 }
 
 export interface Item {
+  key: string;
   name: string;
   type: string;
   power?: number;
