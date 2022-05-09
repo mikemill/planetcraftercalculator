@@ -45,7 +45,7 @@ export class BuildItemsComponent implements OnInit {
       .subscribe((value) => {
         const fg = this.fb.group({
           item: this.items.find((item) => item.key == value),
-          quantity: 0,
+          quantity: 1,
         });
 
         this.itemsAndQuantities.push(fg);
