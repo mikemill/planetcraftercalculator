@@ -1186,7 +1186,7 @@
   },
   {
     "key": "windturbine",
-    "name": "Wind Turbin",
+    "name": "Wind Turbine",
     "type": "power",
     "power": 1.2,
     "dependencies": [
