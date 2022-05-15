@@ -1430,7 +1430,7 @@
   },
   {
     "key": "methane",
-    "name": "Methane Cart",
+    "name": "Methane Cartridge",
     "type": "bio",
     "dependencies": []
   },
@@ -2522,7 +2522,7 @@
       },
       {
         "item": "fertilizer2",
-        "quantity": 1
+        "quantity": 2
       },
       {
         "item": "zeolite",
